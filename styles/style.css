@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');  */
-@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Monsieur+La+Doulaise&family=Ms+Madi&display=swap');
 
 body{
     font-family: "Inter", sans-serif;
@@ -14,7 +16,10 @@ body{
 }
 #shape{
     /* font-family: "Qwitcher Grypen", cursive; */
-    font-family: "Allura", cursive;
+    /* font-family: "Allura", cursive; */
+    /* font-family: "Herr Von Muellerhoff", cursive; */
+    font-family: "Monsieur La Doulaise", cursive;
+    /* font-family: "Ms Madi", cursive; */
     font-weight: 400;
     font-size: 10rem;
 }
@@ -92,11 +97,14 @@ header{
 }
 .banner-header{
     /* font-size: 68px; */
-    font-size: 2.8rem;
+    font-size: 6rem;
     font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
     color: rgb(255,255,255);
     padding: 0;
     gap: 0;
+    margin: 0;
 }
 .banner-description{
     /* font-size: 16px; */
@@ -602,12 +610,24 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    .nav-img{
+        width: 40px;
+        height: 40px;
+        background-color: rgb(17,17,17);
+    }
+    .nav-img img{
+        width: 100%;
+        height: 100%;
+    }
     .banner-content{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: 15px;
         padding: 15px;
+    }
+    .banner-header{
+        font-size: 4rem;
     }
     /* Header response ends here  */
     /* Your Habits response starts here  */
