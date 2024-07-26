@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');  */
-/* @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Monsieur+La+Doulaise&family=Ms+Madi&display=swap');
 
 body{
@@ -19,18 +16,13 @@ body{
     display: none;
 }
 #shape{
-    /* font-family: "Qwitcher Grypen", cursive; */
-    /* font-family: "Allura", cursive; */
-    /* font-family: "Herr Von Muellerhoff", cursive; */
     font-family: "Monsieur La Doulaise", cursive;
-    /* font-family: "Ms Madi", cursive; */
     font-weight: 400;
     font-size: 10rem;
 }
 
 /* Nav style starts here  */
 .header-container{
-    /* width: 1440px; */
     width: 100%;
     height: 775px;
     padding-top: 60px;
@@ -55,7 +47,6 @@ body{
     align-items: flex-start;
 }
 .nav-header{
-    /* font-size: 36px; */
     font-size: 2rem;
     color: rgb(230,83,60);
 }
@@ -64,7 +55,6 @@ body{
     text-decoration: none;
 }
 .home{
-    /* font-size: 18px; */
     font-size: 1rem;
     font-weight: 600;
     width: 92px;
@@ -90,7 +80,6 @@ body{
 }
 .banner-container{
     width: 600px;
-    /* width: 41%; */
     height: 440px;
     display: flex;
     flex-direction: column;
@@ -100,7 +89,6 @@ body{
     gap: 10px;
 }
 .banner-header{
-    /* font-size: 68px; */
     font-size: 6rem;
     font-weight: 900;
     line-height: 120%;
@@ -111,7 +99,6 @@ body{
     margin: 0;
 }
 .banner-description{
-    /* font-size: 16px; */
     font-size: 0.88rem;
     font-weight: 400;
     color: rgb(255,255,255,0.5);
@@ -122,7 +109,6 @@ body{
     background-color: rgb(230,83,60);
     border-radius: 42px;
     border: none;
-    /* font-size: 18px; */
     font-size: 1rem;
     font-weight: 600;
     color: rgb(255,255,255);
@@ -133,8 +119,6 @@ body{
     box-sizing: border-box;
     border-radius: 42px;
     border: 1px solid rgb(255,255,255);
-    /* border-radius: 42px; */
-    /* font-size: 18px; */
     font-size: 1rem;
     font-weight: 600;
     color: rgb(255,255,255);
@@ -142,7 +126,6 @@ body{
 }
 .img-container{
     width: 350px;
-    /* width: 24%; */
     height: 580px;
 }
 .img-container > img{
@@ -177,14 +160,12 @@ body{
     gap: 8px;
 }
 #header-350{
-    /* font-size: 24px; */
     font-size: 1.33rem;
     font-weight: 900;
     color: rgb(250,250,249);
     margin-bottom: 0;
 }
 #description-350{
-    /* font-size: 16px; */
     font-size: 0.88rem;
     font-weight: 400;
     color: rgba(239, 237, 232, 0.65);
@@ -205,14 +186,12 @@ body{
     margin-left: 230px;
 }
 #header-500{
-    /* font-size: 40px; */
     font-size: 2.22rem;
     font-weight: 900;
     color: rgb(255,255,255);
     margin-bottom: 0;
 }
 #description-500{
-    /* font-size: 13px; */
     font-size: .72rem;
     font-weight: 400;
     color: rgba(255, 255, 255,0.65);
@@ -222,7 +201,6 @@ body{
 /* your habits styles starts here  */
 
 .habits{
-    /* width: 1044px; */
     width: 72%;
     height: 452px;
     display: flex;
@@ -273,7 +251,6 @@ body{
     border: 5px solid rgba(255, 255, 255, 0.5);
 }
 .habits-img-title{
-    /* font-size: 18px; */
     font-size: 1rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -281,7 +258,6 @@ body{
     margin-bottom: 0;
 }
 .habits-img-description{
-    /* font-size: 14px; */
     font-size: .77rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
@@ -294,7 +270,6 @@ body{
 .extra{
     display: flex;
     flex-direction: row;
-    /* width: 1060px; */
     width: 74%;
     height: 371px;
     margin: 100px 190px;
@@ -348,13 +323,11 @@ body{
 /* Run extra mile styles ends here  */
 /* BMI calculator styles starts here  */
 .bmi-calculator{
-    /* width: 671px; */
     width: 47%;
     height: 120px;
     margin: 88px auto;
 }
 .bmi-title{
-    /* font-size: 48px; */
     font-size: 2.66rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
@@ -362,7 +335,6 @@ body{
     margin: 0;
 }
 .bmi-description{
-    /* font-size: 14px; */
     font-size: 0.77rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
@@ -375,11 +347,9 @@ body{
     width: 1440px;
     height: 487px;
     background-color: rgb(34, 34, 34);
-    /* padding: 50px 190px; */
     gap: 175px;
 }
 .calculator-title{
-    /* font-size: 28px; */
     font-size: 1.56rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
@@ -404,7 +374,6 @@ gap: 30px;
 
 }
 .calculate-bmi-title{
-    /* font-size: 28px; */
     font-size: 1.56rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
@@ -412,7 +381,6 @@ gap: 30px;
     margin: 0;
 }
 .calculate-bmi-description{
-    /* font-size: 14px; */
     font-size: 0.77rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
@@ -508,7 +476,6 @@ gap: 30px;
 /* meet team styles ends here  */
 /* Footer section styles starts here  */
 footer{
-    /* width: 1440px; */
     width: 100%;
     height: 489px;
     display: flex;
@@ -523,7 +490,6 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* width: 1059px; */
     width: 73%;
     height: 249px;
     margin: 70px auto;
@@ -575,7 +541,6 @@ footer{
     padding: 0;
 }
 .hr{
-    /* width: 1070px; */
     width: 74%;
     margin: 0 auto;
     color: rgb(255,255,255,0.1);
@@ -593,7 +558,6 @@ footer{
 @media screen and (max-width : 576px){
     body{
         width: 576px;
-        /* width: 100%; */
         padding: 0px;
         margin: 0px;
     }
@@ -603,7 +567,6 @@ footer{
     }
     /* Header response starts here  */
     .header-container{
-        /* width: 576px; */
         width: 100%;
         height: 1300px;
         padding: 15px;
@@ -647,7 +610,6 @@ footer{
     /* Header response ends here  */
     /* Your Habits response starts here  */
     .habits{
-        /* width: 576px; */
         width: 100%;
         height: 1400px;
         margin-bottom: 70px;
@@ -660,25 +622,25 @@ footer{
     .extra{
         display: flex;
         flex-direction: column;
-        /* width: 550px; */
         width: 95%;
         height: 760px;
         margin: 0;
         padding: 0;
         gap: 10px;
     }
-    .extra img{
-        width: 100%;
+    .extra-text-container{
+        gap: 20px;
     }
     .extra-img{
         border-radius: 18px;
-        /* width: 480px; */
         width: 83%;
         height: 312px;
         margin: 0;
     }
+    .extra img{
+        width: 100%;
+    }
     #btn-join-now{
-        /* width: 440px; */
         width: 76%;
         height: 80px;
         font-size: 1.5rem;
@@ -688,28 +650,23 @@ footer{
 
     /* BMI calculator response starts here  */
     .bmi-calculator{
-        /* width: 550px; */
-        width: 95%;
+        width: 85%;
         height: 130px;
     }
     .calculator-container{
         flex-direction: column;
-        /* width: 576px; */
-        width: 100%;
+        width: 95%;
         height: 750px;
         background-color: rgb(34, 34, 34);
-        /* padding: 50px 190px; */
         gap: 30px;
         padding: 25px;
         margin-bottom: 80px;
     }
     .calculate-bmi-text{
-        width: 550px;
-        /* width: 95%; */
+        width: 520px;
     }
     .bmi-input-text{
-        width: 269px;
-        /* width: 95%; */
+        width: 254px;
     }
     /* BMI calculator response ends here  */
     /* meet team response starts here  */
@@ -725,11 +682,8 @@ footer{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        width: 576px;
-        /* width: 110%; */
+        width: 100%;
         height: 800px;
-        /* margin: 0;
-        padding: 0; */
         background-color: rgba(255, 255, 255, 0.1);
         gap: 5px;
     }
@@ -741,9 +695,19 @@ footer{
         margin: 0;
         padding: 0;
         height: 80%;
+        gap: 20px;
     }
     .footer-get{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
         align-items: start;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-get-title{
+        padding: 0;
+        margin: 0;
     }
     .hr{
         /* width: 480px; */
@@ -758,6 +722,7 @@ footer{
     /* footer response ends here  */
 }
 /* mobile response section ends here  */
+
 /* Laptop response section starts here  */
 @media screen and (min-width : 992px){
 .nav-img{
