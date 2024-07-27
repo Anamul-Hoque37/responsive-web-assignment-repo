@@ -576,7 +576,7 @@ footer{
         padding: 15px;
         background: linear-gradient(180.00deg, rgba(119,119,119,0) 100%);
         /* border: 5px dotted yellow; */
-        margin: 20px auto;
+        margin: 0 auto;
     }
     .nav-container{
         padding: 0;
@@ -604,6 +604,9 @@ footer{
         margin: 15px;
         padding: 15px;
         margin-left: 50px;
+    }
+    .banner-container{
+        gap: 15px;
     }
     .banner-header{
         font-size: 3rem;
@@ -714,7 +717,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items:start;
         margin: 0;
         padding: 0;
         height: 90%;
@@ -746,15 +749,24 @@ footer{
 }
 /* mobile response section ends here  */
 
+/* Tablet response section starts here  */
+@media  screen and (min-width: 576px) and (max-width: 992px) {
+    .ball-img{
+        display: none;
+    }
+    .nav-img{
+        display: none;
+    }
+}
+/* Tablet response section ends here  */
+
 /* Laptop response section starts here  */
 @media screen and (min-width : 992px){
-.nav-img{
+    .nav-img{
     display: none;
-}
-.ball-img{
+    }
+    .ball-img{
     display: none;
+    }
 }
-}
-
-
 /* Laptop response section ends here  */
