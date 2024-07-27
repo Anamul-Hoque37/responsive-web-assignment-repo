@@ -284,6 +284,7 @@ body{
     align-items: flex-start;
     padding: 50px;
     margin-top: 0;
+    gap: 30px;
 }
 .extra-title{
     font-size: 2.7rem;
@@ -325,7 +326,8 @@ body{
 .bmi-calculator{
     width: 47%;
     height: 120px;
-    margin: 88px auto;
+    margin: 60px auto;
+    margin-bottom: 20px;
 }
 .bmi-title{
     font-size: 2.66rem;
@@ -424,6 +426,7 @@ gap: 30px;
     justify-content: center;
     align-items: center;
     gap: 58px;
+    margin-top: 50px;
 }
 .meet-team-container{
    text-align: center;
@@ -544,6 +547,7 @@ footer{
     width: 74%;
     margin: 0 auto;
     color: rgb(255,255,255,0.1);
+    margin-bottom: 30px;
 }
 .footer-reserve{
     font-size: 1rem;
@@ -568,9 +572,11 @@ footer{
     /* Header response starts here  */
     .header-container{
         width: 100%;
-        height: 1300px;
+        height: 1120px;
         padding: 15px;
         background: linear-gradient(180.00deg, rgba(119,119,119,0) 100%);
+        /* border: 5px dotted yellow; */
+        margin: 20px auto;
     }
     .nav-container{
         padding: 0;
@@ -597,9 +603,18 @@ footer{
         align-items: center;
         margin: 15px;
         padding: 15px;
+        margin-left: 50px;
     }
     .banner-header{
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+    .header-img{
+        width: 300px;
+        height: 520px;
+    }
+    .header-img > img{
+        width: 100%;
+        height: 100%;
     }
     .ball-img{
         width: 40px;
@@ -610,9 +625,10 @@ footer{
     /* Header response ends here  */
     /* Your Habits response starts here  */
     .habits{
-        width: 100%;
+        width: 80%;
         height: 1400px;
         margin-bottom: 70px;
+        margin: 20px auto;
     }
     .habits-img-container{
         flex-direction: column;
@@ -627,6 +643,7 @@ footer{
         margin: 0;
         padding: 0;
         gap: 10px;
+        margin: 20px auto;
     }
     .extra-text-container{
         gap: 20px;
@@ -652,6 +669,7 @@ footer{
     .bmi-calculator{
         width: 85%;
         height: 130px;
+        margin: 20px auto;
     }
     .calculator-container{
         flex-direction: column;
@@ -661,6 +679,7 @@ footer{
         gap: 30px;
         padding: 25px;
         margin-bottom: 80px;
+        margin: 20px auto;
     }
     .calculate-bmi-text{
         width: 520px;
@@ -675,6 +694,9 @@ footer{
         gap: 10px;
         margin-bottom: 80px;
     }
+    .meet-team{
+        margin: 20px auto;
+    }
     /* meet team response ends here  */
     /* footer response starts here  */
     footer{
@@ -683,9 +705,10 @@ footer{
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        height: 800px;
+        height: 650px;
         background-color: rgba(255, 255, 255, 0.1);
         gap: 5px;
+        margin: 0 auto;
     }
     .footer-content{
         display: flex;
@@ -694,7 +717,7 @@ footer{
         align-items: center;
         margin: 0;
         padding: 0;
-        height: 80%;
+        height: 90%;
         gap: 20px;
     }
     .footer-get{
@@ -716,7 +739,7 @@ footer{
     .footer-reserve{
         margin: 0;
         padding: 0;
-        height: 20%;
+        height: 10%;
         text-align: center;
     }
     /* footer response ends here  */
