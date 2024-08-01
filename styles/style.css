@@ -654,14 +654,21 @@ footer{
         align-items: center;
     }
     .nav-img{
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 35px;
         background-color: rgb(17,17,17);
     }
-    .nav-img img{
+    .nav-hr{
+        padding: 2px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        margin: 7px auto;
+    }
+    /* .nav-img img{
         width: 100%;
         height: 100%;
-    }
+    } */
     .banner-content{
         flex-direction: column;
         justify-content: center;
