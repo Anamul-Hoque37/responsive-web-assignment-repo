@@ -79,7 +79,7 @@ body{
 .banner-content{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 88px;
     margin: 0 auto;
@@ -279,9 +279,10 @@ body{
 .extra{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     width: 74%;
     height: 371px;
-    margin: 100px 190px;
+    margin: 100px auto;
     background-color: rgb(34,34,34);
     border-radius: 18px;
     gap: 165px;
@@ -337,6 +338,9 @@ body{
 .bmi-calculator{
     width: 47%;
     height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin: 60px auto;
     margin-bottom: 20px;
 }
@@ -655,13 +659,16 @@ footer{
         width: 90%;
         height: 1040px;
         padding: 15px;
-        padding-left: 30px;
+        padding-left: 15px;
         gap: 2px;
         background: linear-gradient(180.00deg, rgba(119,119,119,0) 100%);
         /* border: 5px dotted yellow; */
         margin: 0 auto;
     }
     .nav-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         padding: 0;
         margin: 10px;
     }
@@ -698,9 +705,13 @@ footer{
     }
     .banner-container{
         gap: 15px;
+        padding-left: 50px;
     }
     .banner-header{
         font-size: 2.8rem;
+    }
+    .img-container{
+        margin-left: 20px;
     }
     .header-img{
         width: 280px;
